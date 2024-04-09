@@ -1,0 +1,20 @@
+{
+  "name": "weird-slash-lab",
+  "version": "1.2.3",
+  "description": "Just testing some weird behaviour on windows",
+  "main": "index.ts",
+  "scripts": {
+    "start": "dotenv -- ts-node index.ts",
+    "test": "dotenv -- jest"
+  },
+  "author": "Oscar Waldell",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "dotenv-cli": "^7.4.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}
